@@ -8,6 +8,7 @@ namespace RockScissorsPaper.Models
         public string Player1 { get; set; }
         public string Player2 { get; set; }
         public static Dictionary<int, string> numToMove = new Dictionary<int, string>() { {0, "r"}, {1, "p"}, {2, "s"} };
+        public static Dictionary<string, string> letterToMove = new Dictionary<string, string>() { {"r", "Rock"}, {"p", "Paper"}, {"s", "Scissors"} };
 
         public Game(string player1, string player2)
         {

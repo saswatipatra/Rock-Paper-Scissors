@@ -11,12 +11,17 @@ class Program
         Console.Write("Rock, paper, scissors, shoot! (r/p/s): ");
         string userInput = Console.ReadLine();
 
+        while (userInput != "r" && userInput != "p" && userInput != "s") {
+            Console.WriteLine("Invalid input\n");
+            Main();
+        }
+
         Random rnd = new Random();
         int rand = rnd.Next(0,3);
 
         string computerMove = Game.numToMove[rand];
 
-        Console.WriteLine($"\nYou: {userInput}\nComputer: {computerMove}");
+        Console.WriteLine($"\nYou: {Game.letterToMove[userInput]}\nComputer: {Game.letterToMove[computerMove]}");
 
         Game newGame = new Game(userInput, computerMove);
 
@@ -28,11 +33,11 @@ class Program
         {
             if (newGame.Player1_Win() == true)
             {
-                Console.WriteLine("You won!");
+                Console.WriteLine("You won!\n");
             }
             else
             {
-                Console.WriteLine("Computer won. :(");
+                Console.WriteLine("Computer won. :(\n");
             }
         }
         
