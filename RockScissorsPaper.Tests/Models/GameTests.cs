@@ -7,10 +7,17 @@ namespace RockScissorsPaper.Tests
     public class GameTest
     {
         [TestMethod]
-        public void MethodName_Spec_ExpectedOutput()
+        public void DetermineDraw_PlayersAreEqual_True()
         {
-            Game instanceName = new Game();
-            Assert.AreEqual(ExpectedOutput, instanceName.MethodName(inputHere));
+            Game newGame = new Game("rock", "rock");
+            Assert.AreEqual(true, newGame.DetermineDraw());
+        }
+
+        [TestMethod]
+        public void DetermineWin_Players1IsWinner_True()
+        {
+            Game newGame = new Game("r","p");
+            Assert.AreEqual(false, newGame.Player1_Win());
         }
     }
 }
