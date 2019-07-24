@@ -1,15 +1,15 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProjectName.Models;
+using RockScissorsPaper.Models;
 
-namespace ProjectName.Tests
+namespace RockScissorsPaper.Tests
 {
     [TestClass]
-    public class ClassNameTest
+    public class GameTest
     {
         [TestMethod]
         public void MethodName_Spec_ExpectedOutput()
         {
-            ClassName instanceName = new ClassName();
+            Game instanceName = new Game();
             Assert.AreEqual(ExpectedOutput, instanceName.MethodName(inputHere));
         }
     }

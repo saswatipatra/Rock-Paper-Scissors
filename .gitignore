@@ -1,4 +1,6 @@
-ProjectName/obj/
-ProjectName/bin/
-ProjectName.Tests/obj/
-ProjectName.Tests/bin/
+RockScissorsPaper/obj/
+RockScissorsPaper/bin/
+RockScissorsPaper.Tests/obj/
+RockScissorsPaper.Tests/bin/
+.vscode/launch.json
+.vscode/tasks.json

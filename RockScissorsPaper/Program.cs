@@ -1,5 +1,5 @@
 using System;
-using NAMESPACE;
+using RockScissorsPaper.Models;
 
 class Program
 {
