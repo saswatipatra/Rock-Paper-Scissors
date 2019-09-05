@@ -2,7 +2,7 @@
 
 #### _DESCRIPTION - BUILD DATE_
 
-#### _By **Na Hyung Choi**_
+#### _By **Saswati Patra**_
 
 ## Description
 
@@ -17,7 +17,7 @@ DETAILED DESCRIPTION
 
 1. Clone this repository:
     ```
-    $ git clone REPO URL HERE
+    $ git clone REPO: https://github.com/saswatipatra/Rock-Paper-Scissors
     ```
 2. Run the application
     ```
@@ -32,10 +32,10 @@ DETAILED DESCRIPTION
 
 ## Support and contact details
 
-_Please contact Na Hyung with questions and comments._
+_Please contact Saswati Patra with questions and comments._
 
 ### License
 
 *GNU GPLv3*
 
-Copyright (c) 2019 **_Na Hyung Choi_**
+Copyright (c) 2019 **_Saswati Patra_**
